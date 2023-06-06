@@ -1,3 +1,170 @@
-ul {
+:root {
+    --hover-color: #2196F3;
+    --prime-links: #212121;
+    --contact-grey: #757575;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
     list-style: none;
+}
+
+.nav-links-toll li a,
+.contact-links li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-links-toll li a {
+    color: var(--prime-links);
+}
+
+.nav-links-toll li a:hover,
+.contact-links li a:hover {
+    color: var(--hover-color);
+}
+
+.contact-links li a {
+    color: var(--contact-grey);
+}
+
+
+.main-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-section {
+    background: #2F303A;
+}
+
+.main-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+
+
+.h3text1 li h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+
+.h3text1 li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.second-title {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.cards-items li div h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.cards-items li div p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.cards-items li {
+    width: 270px;
+}
+
+.cards-items li img {
+    width: 100%;
+}
+
+.items-section {
+    background: #F5F4FA;
+}
+
+.white-background {
+    background: #FFFFFF;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+footer {
+    background: #2F303A;
+}
+
+footer address {
+    color: #FFFFFF;
+}
+
+footer span {
+    color: rgba(255, 255, 255, 0.6);
 }
