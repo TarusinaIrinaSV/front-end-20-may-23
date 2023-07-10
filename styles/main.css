@@ -12,6 +12,10 @@
     list-style: none;
 }
 
+p {
+    color: aquamarine;
+}
+
 .nav-links-toll li a,
 .contact-links li a {
     font-family: 'Roboto';
@@ -108,8 +112,11 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
+}
+
+#adressfooter {
+    font-size: 20px;
 }
 
 .cards-items li div h3 {
@@ -168,3 +175,45 @@ footer address {
 footer span {
     color: rgba(255, 255, 255, 0.6);
 }
+
+.test-div {
+    color: rgb(0, 8, 255);
+}
+
+li ul li:last-child {
+    list-style-type: disc;
+    color: #ff6666;
+}
+
+.nav-links {
+    padding: 32px 215px;
+    display: flex;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.logo-link {
+    margin-right: 93px;
+}
+
+.nav-links-toll {
+    margin-right: 331px;
+}
+
+.nav-links ul li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.test {
+width: 500px;
+height: 300px;
+display:flex;
+background-color: aqua;
+}
+
+.heder {
+height: 80px;
+}
+
