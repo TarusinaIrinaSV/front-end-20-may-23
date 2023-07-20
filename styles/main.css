@@ -15,10 +15,13 @@
 p {
     color: aquamarine;
 }
+body {
+font-family:'Roboto';
+}
 
 .nav-links-toll li a,
 .contact-links li a {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -41,7 +44,7 @@ p {
 
 
 .main-title {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -54,10 +57,11 @@ p {
 
 .main-section {
     background: #2F303A;
+    padding: 200px 0px;
 }
 
 .main-button {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -75,11 +79,14 @@ p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
+    margin: 30px auto 0px;
+    padding: 10px 32px;
+
 }
 
 
 .h3text1 li h3 {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -88,10 +95,11 @@ p {
     text-transform: uppercase;
 
     color: #212121;
+    margin-bottom: 10px;
 }
 
 .h3text1 li p {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -105,7 +113,7 @@ p {
 
 .second-title {
 
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -115,24 +123,21 @@ p {
     color: #212121;
 }
 
-#adressfooter {
-    font-size: 20px;
-}
 
 .cards-items li div h3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
+    
     color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
 }
 
 .cards-items li div p {
-    font-family: 'Roboto';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -169,11 +174,23 @@ footer {
 }
 
 footer address {
-    color: #FFFFFF;
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
 }
 
-footer span {
-    color: rgba(255, 255, 255, 0.6);
+footer p {
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
 }
 
 .test-div {
@@ -207,13 +224,24 @@ li ul li:last-child {
 }
 
 .test {
-width: 500px;
-height: 300px;
-display:flex;
-background-color: aqua;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    background-color: aqua;
 }
 
 .heder {
-height: 80px;
+    height: 80px;
+}
+
+.second-section {
+    padding: 94px 215px;
+}
+.h3text1 {
+display: flex;
+}
+
+.h3text1 li:not(:last-child) {
+margin-right: 30px;
 }
 
