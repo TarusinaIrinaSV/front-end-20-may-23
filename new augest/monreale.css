@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 0;
+}
+
+.oncekvadrat {
+    flex-wrap: wrap;
+    display: flex;
+    width: 497px;
+    height: 492px;
+    border: 5px solid black;
+    background-color: aquamarine;
+}
+
+.kwadratperv {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.kwadratvtoroi {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: white;
+    margin: 0px;
+}
+
+.kwadrattretyi {
+    display: inline-block;
+    width: 130px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: rgb(234, 208, 13);
+    margin: 0px;
+}
+
+.kwadratchetv {  
+    display: inline-block;
+    width: 78px;
+    height: 450px;
+    border: 5px solid black;
+    background-color:white;
+    margin: 0px;
+}
+
+.kwadratpytiy {
+    display: inline-block;
+    width: 60px;
+    height: 130px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.kwadratshestoy {
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: rgb(229, 15, 15);
+}
+
+.kwadratsedmoy {
+    display: inline-block;
+    width: 130px;
+    height: 100px;
+    border: 5px solid black;
+    background-color: rgb(233, 226, 20);
+}
+
+.bottom {
+position: absolute;
+display: flex;
+top: 55px;
+}
