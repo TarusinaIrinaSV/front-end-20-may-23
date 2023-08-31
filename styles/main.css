@@ -320,7 +320,7 @@ footer a {
 
 .works-title {
     color: #212121;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px;
@@ -330,9 +330,40 @@ footer a {
 .portfolio-works-text {
     color: #757575;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.48px;
+}
+
+.portfolio-works {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-works li img {
+    width: 320px;
+}
+
+.portfolio-works li:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+.portfolio-works li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #EEE;
+    background: #FFF;
+}
+
+.portfolio-works div {
+    padding: 20px 14px;
+}
+
+.portfolio-works li:nth-child(7),
+.portfolio-works li:nth-child(8),
+.portfolio-works li:nth-child(9) {
+    margin-bottom: 0;
 }
